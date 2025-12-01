@@ -1,0 +1,281 @@
+<!doctype html>
+<html>
+<head>
+    <title>Mikey Whelan</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link href='https://fonts.googleapis.com/css?family=Fira Sans Condensed' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="apple-touch-icon" type="image/png" href="Images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="Images/android-chrome-512x512.png">
+	<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css">
+    <link rel="stylesheet" type="text/css" href="masterstyle.css">
+    <script defer data-domain="whelam17.github.io" src="https://plausible.io/js/script.js"></script>
+    <script src="/MathJax/MathJax.js" type="text/javascript">
+        MathJax.Hub.Config({
+            config: ["MMLorHTML.js"],
+            extensions: ["tex2jax.js"],
+            jax: ["input/TeX", "output/SVG"],
+            tex2jax: {inlineMath: ["\\(","\\)"], displayMath: ["\$$","\$$"]}
+        });
+        </script>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_SVG" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body> 
+
+<div class="desktop-only desktop-only-intro">
+    <table>
+        <tr>
+            <td>
+                <img class="headshot" src="Images/headshot.jpg" alt="Photo of me">
+            </td>
+            <td>
+                <h1 class="name">
+                    Mikey Whelan
+                </h1>
+                <p class="email"><a class="email">whelam17@tcd.ie</a></p>
+                <hr>
+                <main>
+                    <b>2024-2025:</b> MSc in <a href="https://www.tcd.ie/physics/quantumtech/"> Quantum Science and Technology</a> at Trinity College, Dublin.
+                    <br>
+                    <b>2020-2024:</b> BA in <a href="https://www.tcd.ie/courses/undergraduate/courses/theoretical-physics/">Theoretical Physics</a> at Trinity College, Dublin. 
+                    <br>
+                    <br>
+                    Find out about my research projects and interests below!
+                </main>
+            </td>
+        </tr>
+    </table>
+    <hr class="mainhr">
+</div>
+
+<div class="mobile-only mobile-only-intro">
+    <h1 class="mobile-only-intro name">
+        Mikey Whelan
+    </h1>
+    <p class="mobile-only-intro email">
+        whelam17@tcd.ie
+    </p>
+    <img class="mobile-only-intro headshot" src="Images/headshot.jpg" alt="me">
+    <hr class="mainhr">
+    <table class="mobile-only-intro about-me" cellspacing="10px">
+        <tr>
+            <td>
+                <main>
+                    <b>2024-2025:</b> MSc. in Quantum Science and Technology at Trinity College, Dublin.
+                    <br>
+                    <b>2020-2024:</b> BA in Theoretical Physics at Trinity College, Dublin. 
+                    <br>
+                    <br>
+                    Find out about my research projects and interests below!
+                </main>
+            </td>
+        </tr>
+    </table>
+    <hr class="mainhr">
+</div>
+
+<nav id="navbar">
+    <a class="tabButton Research"        onclick="tabClicked('Research');">         Research</a> 
+    <a class="tabButton Collaborations"  onclick="tabClicked('Collaborations');">   Collaborations</a> 
+    <a class="tabButton Communication"   onclick="tabClicked('Communication');">    Communication</a> 
+</nav>
+
+<!-- <div>
+    <div id="debugText"></div>
+</div> -->
+
+<table class="maintable">
+
+<tbody class="tabContent Research">
+    <tr class="headanchor" id="Research">
+        <td>
+        <h1>Research</h1>
+        </td>
+    </tr>
+    <tr class="SURE23">
+        <td>
+            <h2 class="project-title">
+            Morse-Witten Python Simulation <div class="dates">&#x2013;  2023-24</div>
+            </h2> 
+            <main>
+            During my SURE program in 2023, I ran simulations of soft sphere interactions using the non-linear Morse-Witten theory. 
+            I helped to optimise the simulation and to characterise the different emergent structure formed by soft spheres confined in a cylindrical 
+            potential.
+            </main>
+            <hr class="bumphr"/>
+            <main>
+            <a class="clickables" href="https://www.tandfonline.com/doi/abs/10.1080/14786435.2025.2450217" >Publication</a>
+            <a class="clickables" href="Bubbles/index.html" >Gallery</a>
+            </main>
+        </td>
+        <td class="grids">
+            <img class="grids" src="Bubbles/BubblesImages/soft-sphere.png" >
+        </td>
+    </tr>
+    <tr class="Quandela">
+        <td>
+            <h2 class="project-title">
+            Internship <div class="dates">&#x2013;  2025</div>
+            </h2> 
+            <main>
+            For my Master's summer project, I interned at Quandela in Paris. I worked on an internal project investigating if the master equations for modeling the evolution of their single-photon source satisfies thermodynamic consistency using 
+            the counting field framework. The microscopic model involved a 2-level system interacting with one mode of an electric field, coupled
+            to a phonon bath and waveguide. By applying counting fields and solving for the Redfield master equation, one can find that fluctuations in 
+            thermodyanamic quantities are not generally conserved.
+            </main>
+            <hr class="bumphr"/>
+            <main>
+            </main>
+        </td>
+        <td class="grids">
+            <img class="grids" src="Images/photon-source.png" >
+        </td>
+    </tr>
+    <tr class="CAPSTONE">
+        <td>
+            <h2 class="project-title">
+            Undergraduate Thesis <div class="dates">&#x2013;  2024</div>
+            </h2> 
+            <main>
+            My undergraduate final year project was supervisor by <a href="https://www.maths.tcd.ie/~britto/">Prof. Ruth Britto</a> and concerned hypergeometric functions as they appear 
+            as solutions to Feynman diagrams. I investigated if there was a link between twisted period relations for hypergeometric
+            functions derived from (co)homology theory and quadratic relations for equal-mass sunrise diagrams.
+            </main>
+            <hr class="bumphr"/>
+            <main>
+            <a class="clickables" href="Documents/capstone.pdf" >Thesis</a>
+            </main>
+        </td>
+        <td class="grids">
+            <img class="grids" src="Images/sunrise.png" >
+        </td>
+    </tr>
+</tbody> 
+<!--End of tab Research-->
+
+<tbody class = "tabContent Collaborations">
+    <tr class="headanchor" id="Collaborations">
+        <td>
+        <h1>Collaborations</h1>
+        </td>
+    </tr>
+    <tr class="hamilton">
+        <td>
+            <h2 class="project-title">
+            Symbol Alphabet of Feynman Diagrams <div class="dates">&#x2013;  Summer 2024</div>
+            </h2> 
+            <main>
+                I participated in the Hamilton Trust Summer Internship with <a href="https://elizasomerville.github.io">Eliza Somerville</a> and <a href="https://farrenal.github.io">Alexander Farren</a>,
+                supervised by <a href="https://www.maths.tcd.ie/~britto/">Prof. Ruth Britto</a>. We studied the symbol alphabet of one-loop Feynman integrals using the coaction formalism.
+            </main>
+            <hr class="bumphr"/>
+            <main>
+            <a class="clickables" href="Documents/Hamilton_report.pdf">Report</a>
+            <a class="clickables" href="Documents/Hamilton_presentation.pdf" >Slides</a>
+            <a class="clickables" href="Documents/Hamilton_poster.pdf" >Poster</a>
+            </main>
+        </td>
+        <td class="grids">
+            <img class="grids" src="Images/box-recursion.png" >
+        </td>
+    </tr>
+    <tr class="ireland">
+        <td>
+            <h2 class="project-title">
+            Electoral Redistricting <div class="dates">&#x2013; May 2023</div>
+            </h2> 
+            <main> 
+            I participated in a <a href="https://www.maths.tcd.ie/~tristan/SSG/index.html">Real World Mathematical Modelling</a> 
+            hackathon event with <a href="https://farrenal.github.io">Alexander Farren</a>, <a href="https://elizasomerville.github.io">Eliza Somerville</a>, 
+            and Ben McGloin. We had to redistribute Ireland's electoral divisions to optomise for criteria define in the Irish Constitution. Our
+            approach used a genetic algorithm to evolve constituency boundaries.
+            </main>
+            <hr class="bumphr" />
+            <main>
+            <a class="clickables" href="https://elizasomerville.github.io/Files/Redistricting_Ireland_Report.pdf">Report</a>
+            <a class="clickables" href="https://github.com/elizasomerville/IrishConstituencyOptimisation">Github</a>
+            </main>
+        </td>
+        <td class="grids">
+            <img class="grids" src="Images/ireland.png">
+        </td>
+    </tr>
+</tbody> 
+<!--End of tab Visualisations-->
+
+<tbody class = "tabContent Communication">
+    <tr class="headanchor" id="Communication">
+        <td>
+        <h1>Communication</h1>
+        </td>
+    </tr>
+    <tr class="TA_SM">
+        <td>
+            <h2 class="project-title">
+            TA work <div class="dates">&#x2013; 2024-25</div>
+            </h2> 
+            <main>
+            During my Master's, I was TAing for the final year TP undergraduate module in the Standard Model. I followed along Peskin's "Concepts 
+            of Elementary Particle Physics" book and held weekly tutorials where I worked through exercise solutions. I maintained a steady attendance
+            in the audience and the anonymous feedback was positive.
+            </main>
+            <main>
+            <a class="clickables" href="Documents/PartIII_talk.pdf">Slides</a>
+            </main>
+            <br>
+        </td>
+        <td class="grids">
+            <img class="grids fit" src="Images/TAing.png">
+        </td>
+    </tr>	
+    <tr class="ising">
+        <td>
+            <h2 class="project-title">
+            Critical Temperature of 2D Ising Model <div class="dates">&#x2013; 2023</div>
+            </h2> 
+            <main>
+            I and <a href="https://farrenal.github.io">Alexander Farren</a> made a video for the TPSA YouTube channel deriving the critical temperature 
+            of the 2D Ising model.
+            </main>
+            <main>
+            <a class="clickables" href="https://www.youtube.com/watch?v=3AZ3TFAgVHA">YouTube Link</a>
+            </main>
+        </td>
+        <td class="grids">
+            <img class="grids fit" src="Images/ising.png">
+        </td>
+    </tr>
+    <tr class="cheshire">
+        <td>
+            <h2 class="project-title">
+            The Quantum Cheshire Cat <div class="dates">&#x2013; 2025</div>
+            </h2> 
+            <main>
+            During our masters, I and a classmate made a pop-sci video or our school's YouTube channel. We both wrote and narrated the script, and 
+            I edited the video.
+            </main>
+            <main>
+            <a class="clickables" href="https://www.youtube.com/watch?v=ut4veKRfqvg">YouTube Link</a>
+            </main>
+        </td>
+        <td class="grids">
+            <img class="grids fit" src="Images/cheshire.png">
+        </td>
+    </tr>
+</tbody>
+<!--End of tab Communication-->
+
+
+
+</table>
+
+<script> 
+   $('.clickables').attr('target', '_blank'); 
+</script>
+<script src="tabs.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Soft sphere gallery</title>
+  <style>
+
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 50%; /* Adjust the maximum width of the image container */
+      margin: 0 auto; /* Center the image container */
+      padding: 10px; /* Adjust padding as needed */
+      box-sizing: border-box;
+    }
+
+    .image-container img {
+      max-width: 75%; /* Ensure images don't exceed their natural width */
+      height: auto; /* Maintain aspect ratio */
+      padding: 10px; /* Adjust padding between images */
+      box-sizing: border-box;
+    }
+    
+    
+    .image-container-2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 70%; /* Adjust the maximum width of the image container */
+      margin: 0 auto; /* Center the image container */
+      padding: 10px; /* Adjust padding as needed */
+      box-sizing: border-box;
+    }
+
+    .image-container-2 img {
+      max-width: 75%; /* Ensure images don't exceed their natural width */
+      height: auto; /* Maintain aspect ratio */
+      padding: 10px; /* Adjust padding between images */
+      box-sizing: border-box;
+    }
+
+    @media (max-width: 767px) {
+      .image-container img {
+        width: 50%; /* On smaller screens, each image takes up 50% of the container width */
+      }
+    }
+
+    @media (max-width: 479px) {
+      .image-container img {
+        width: 100%; /* On even smaller screens, each image takes up 100% of the container width */
+      }
+    }
+    
+    
+    .italicized-text {
+      font-style: italic; /* Make the text italic */
+      text-align: center;
+    }
+    
+  </style>
+</head>
+<body>
+Results of my <b>soft sphere simulations</b> during my SURE23 program.
+<p class="italicized-text">Cylindrical confining potential:</p>
+  <div class="image-container-2">
+    <img src="BubblesImages/generel-chain.png">
+  </div>
+    <div class="image-container">
+      <img src="BubblesImages/fullzipper.png" alt="Image 1">
+      <img src="BubblesImages/3helix.png" alt="Image 2">
+
+    </div>
+
+<p class="italicized-text">Spherical confining potential:</p>
+    
+        <div class="image-container">
+          <img src="BubblesImages/sph9.png" alt="Image 1">
+          <img src="BubblesImages/sph13.png" alt="Image 2">
+
+        </div>
+   <p class="italicized-text">Distortions:</p>
+     <div class="image-container-2">
+       <img src="BubblesImages/soft-sphere.png">
+     </div>     
+</body>
+</html>
